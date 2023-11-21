@@ -50,7 +50,7 @@ encoding_header = [
 
 const blackList = ['https://chinhphu.vn', 'https://ngocphong.com', 'https://virustotal.com', 'https://cloudflare.com', 'https://check-host.cc/', 'https://check-host.net/', 'https://open.spotify.com', 'https://snapchat.com', 'https://usa.gov', 'https://fbi.gov', 'https://nasa.gov', 'https://google.com', 'https://translate.google.com', 'https://github.com', 'https://youtube.com', 'https://facebook.com', 'https://chat.openai.com', 'https://shopee.vn', 'https://mail.google.com', 'https://tiktok.com', 'https://instagram.com', 'https://twitter.com', 'https://telegram.org'];
 
-if (blackList.includes(args.target) {
+if (blackList.includes(args.target)) {
   console.log("BLACKLISTED WEBSITE");
   process.exit(1);
 }
